@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+
+  #hero {/*背景*/
+    background-image: url(../img/bj.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+  .hero-section-container {  /*模糊蒙版*/
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 92%;
+    width: 95%;
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+}
+
+.home span {
+    color: rgb(255, 255, 255);
+  }
+  
+
+  /*首页关于客串*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    height: 100px;
+    gap: 200px;
+}
+
+/*首页关于客串 鼠标悬浮下划线*/
+nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+  
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 2px;
+    width: 80%;
+    box-shadow: 0 0 5px white;
+    transform: scaleX(0) translateY(-100%);
+    background-color: white;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    transform: scaleX(0.8) translateY(0);
+  
+}
+
+.active {
+    color: rgb(255, 255, 255);
+}
+  
+.active::after {
+    background-color: rgb(255, 255, 255);
+}
+/*首页关于客串 鼠标悬浮下划线*/
+
