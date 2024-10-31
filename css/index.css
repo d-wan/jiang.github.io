@@ -112,7 +112,7 @@ nav a:hover::after {
 }
 
 
-/*更多 按钮*/
+/*鏇村 鎸夐挳*/
 header button {
   font-size: 18px;
   font-weight: bold;
@@ -128,7 +128,7 @@ header button:hover {
   color: rgb(210, 206, 206);
 
 }
-/*更多 按钮*/
+/*鏇村 鎸夐挳*/
 
 /* Hero Content */
 .hero-content {
@@ -138,7 +138,7 @@ header button:hover {
 }
 
 /* Right Section */
-.hero-content img {   /*地球*/
+.hero-content img {   /*鍦扮悆*/
   width: 90%;
   filter: drop-shadow(0 0 10px rgba(255, 9, 9, 0))
     drop-shadow(0 0 20px rgba(0, 0, 0, 0))
@@ -204,16 +204,9 @@ p span {
   border-radius: 30px;
   background-color: rgb(245, 250, 250);
   color: rgba(0, 0, 0, 0.863);
-  text-transform: uppercase;
-  transition: all 0.3s;
-  top: 0px;
-  left: 60px;
-  position: fixed;
-  bottom: 0px; 
 }
 
 .jiangaa:hover{
-  letter-spacing: 2px;
   background-color: rgb(14, 14, 14);
   color: rgb(253, 255, 255);
 }
